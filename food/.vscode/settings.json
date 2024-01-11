@@ -1,0 +1,58 @@
+{
+  "dartimportsorter.matchingRules": [
+    {
+      "label": "Flutter",
+      "regex": "^package:(?!flutter_template).*$",
+      "order": 1,
+      "regexFlags": ["m", "s"]
+    },
+    {
+      "label": "Dart",
+      "regex": "^dart:.*$",
+      "order": 2,
+      "regexFlags": ["m"]
+    },
+    {
+      "label": "App layer",
+      "regex": "^package:flutter_template/(app)/.*$",
+      "order": 3,
+      "regexFlags": ["m"]
+    },
+    {
+      "label": "Pages layer",
+      "regex": "^package:flutter_template/(pages)/.*$",
+      "order": 4,
+      "regexFlags": ["m"]
+    },
+    {
+      "label": "Widgets layer",
+      "regex": "^package:flutter_template/(widgets)/.*$",
+      "order": 5,
+      "regexFlags": ["m"]
+    },
+    {
+      "label": "Features layer",
+      "regex": "^package:flutter_template/(features)/.*$",
+      "order": 6,
+      "regexFlags": ["m"]
+    },
+    {
+      "label": "Entities layer",
+      "regex": "^package:flutter_template/(entities)/.*$",
+      "order": 7,
+      "regexFlags": ["m"]
+    },
+    {
+      "label": "Shared layer",
+      "regex": "^package:flutter_template/(shared)/.*$",
+      "order": 8,
+      "regexFlags": ["m"]
+    },
+    {
+      "label": "Everything else",
+      "regex": ".*",
+      "order": 9,
+      "regexFlags": ["m"]
+    }
+  ]
+}

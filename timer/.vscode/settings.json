@@ -1,0 +1,58 @@
+{
+  "dartimportsorter.matchingRules": [
+    {
+      "label": "Flutter",
+      "regex": "^package:(?!morning_timer).*$",
+      "order": 1,
+      "regexFlags": ["m", "s"]
+    },
+    {
+      "label": "Dart",
+      "regex": "^dart:.*$",
+      "order": 2,
+      "regexFlags": ["m"]
+    },
+    {
+      "label": "App layer",
+      "regex": "^package:morning_timer/(app)/.*$",
+      "order": 3,
+      "regexFlags": ["m"]
+    },
+    {
+      "label": "Pages layer",
+      "regex": "^package:morning_timer/(pages)/.*$",
+      "order": 4,
+      "regexFlags": ["m"]
+    },
+    {
+      "label": "Widgets layer",
+      "regex": "^package:morning_timer/(widgets)/.*$",
+      "order": 5,
+      "regexFlags": ["m"]
+    },
+    {
+      "label": "Features layer",
+      "regex": "^package:morning_timer/(features)/.*$",
+      "order": 6,
+      "regexFlags": ["m"]
+    },
+    {
+      "label": "Entities layer",
+      "regex": "^package:morning_timer/(entities)/.*$",
+      "order": 7,
+      "regexFlags": ["m"]
+    },
+    {
+      "label": "Shared layer",
+      "regex": "^package:morning_timer/(shared)/.*$",
+      "order": 8,
+      "regexFlags": ["m"]
+    },
+    {
+      "label": "Everything else",
+      "regex": ".*",
+      "order": 9,
+      "regexFlags": ["m"]
+    }
+  ]
+}

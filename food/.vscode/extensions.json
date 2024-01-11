@@ -1,0 +1,7 @@
+{
+  "recommendations": [
+    "dart-code.flutter",
+    "felixangelov.bloc",
+    "aziznal.dart-import-sorter"
+  ]
+}
